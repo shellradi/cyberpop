@@ -59,7 +59,7 @@ section {
   color: #62df50;
   border-bottom: 3px dotted #62df50;
   padding: 8px;
-  width: 50%;
+  width: 80%;
 }
 #underline {
   color: #62df50;
@@ -85,9 +85,6 @@ i {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 500px) {
-  .nav-link {
-    display: block;
-  }
   #social-icon {
     display: none;
   }
@@ -98,5 +95,9 @@ i {
   #logo {
     width: 60px;
     height: 50px;
+  }
+  section {
+    width: 90%;
+    margin: auto;
   }
 }
